@@ -1,0 +1,2 @@
+bg color : #4a656c
+main color : #faecc3
