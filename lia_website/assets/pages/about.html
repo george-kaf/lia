@@ -1,0 +1,54 @@
+<html>
+  <head>
+     <title>Register or login</title>
+	 <h1><a href="../index.html"><img src="../images/logo.png" alt="bikeztube logo" width="150" height="170"/></a></h1>
+
+        </head>
+
+<body>
+
+<form action="http://www.example.com/bookings.php">
+
+<fieldset required="required">
+	<legend>Your details:</legend>
+	<br />
+	<label name="enter_name">Name:</label>
+	<input type="text" name="text" placeholder="Enter your name here" required="required" />
+	<label name="enter_surname">Surname:</label>
+	<input type="text" name="text" placeholder="Enter your surname here" required="required" />
+	
+</fieldset>
+
+<br />
+<br />
+
+<fieldset>
+<p>How did you hear about us?</p>
+<select name="websites">
+	<option value="google">Google</option>
+	<option value="facebook">Facebook</option>
+	<option value="bikeztube">Bikeztube</option>
+</select>
+
+<br />
+
+
+<p>Would you visit us again?</p>
+<br />
+<input type="radio" id="yes" name="use_again" value="yes">
+<label for="yes">Yes</label>
+<input type="radio" id="no" name="use_again" value="no">
+<label for="no">No</label>
+<input type="radio" id="maybe" name="use_again" value="maybe">
+<label for="maybe">Maybe</label>
+<br />
+
+<p>Comments:</p>
+<br />
+<input type="text" length="200" name="comments" id="comments"/>
+
+<br />
+<input type="checkbox" checked="checked" />Sign up for email updates
+
+<input type="submit"/>
+</html>
