@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- Favicons -->
     <title>Lia - Knits - Handmade knit stuff</title>
   </head>
+
 <body>
 
 <!-- Navbar -->
@@ -20,30 +25,21 @@
   class="logo"
   href="#home">
   <ul class="navigation">
-    <li class="active-link"><a href="#home">Home</a></li>
-    <li><a href="#shop" class="nav-link">Shop</a></li>
+    <li><a href="#home" class="nav-link">Home</a></li>
     <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#shop" class="nav-link">Shop</a></li>
     <li><a href="#contact" class="nav-link">Contact</a></li>
-    <button class="burger-menu" id="burger-menu">
-      <ion-icon class="bars" name="menu-outline"></ion-icon>
-    </button>
-    <a href=""><img
-    src="assets/icons/basket.png"
-    loading="lazy"
-    class="icon-nav">
-    </a>
-    <a href=""><img
-    src="assets/icons/search.png"
-    loading="lazy"
-    class="icon-nav">
-    </a>
-  </ul> 
+  </ul>
+  <button class="burger-menu" id="burger-menu">
+    <ion-icon class="bars" name="menu-outline"></ion-icon>
+  </button>
+  
 </nav>
     
 <!-- Hero Section -->
 <div class="hero-container">
-  <div class="hero-left w3-container w3-center w3-animate-left">
-    <div>
+  <div class="hero-left">
+    <div class="img-container">
       <img class="intro-imges-left img1" src="assets/images/intro-img-1.jpg">
     </div>
     <div>
@@ -67,14 +63,12 @@
     </div>
   <div class="hero-right">
     <div>
-      <img class="intro-imges-right img4" src="assets/images/intro-img-4.jpg">
-    </div>
-    <div>
       <img class="intro-imges-right img5" src="assets/images/intro-img-5.jpg">
     </div>
     <div>
-      <img class="intro-imges-left img8" src="assets/images/yarns3.png">
+      <img class="intro-imges-right img4" src="assets/images/intro-img-4.jpg">
     </div>
+
   </div>
 </div>
 
@@ -83,28 +77,64 @@
   <div class="products-container">
     <div class="product-container product-card">
       <div>
-        <img class="product-pic" src="assets/images/knit-1.jpg"><h3 class="product-title">Knit One - £25.00<hr></h3>
+        <img class="product-pic" src="assets/images/knit-1.jpg"><h3 class="product-title">Knit One<hr></h3>
       </div>
     </div>
     <div class="product-container product-card">
       <div>
-        <img class="product-pic" src="assets/images/knit-2.jpg"><h3 class="product-title">Kint Two - £36.00<hr></h3
+        <img class="product-pic" src="assets/images/knit-2.jpg"><h3 class="product-title">Kint Two<hr></h3
         ></div>
     </div>
     <div class="product-container product-card">
       <div>
-        <img class="product-pic" src="assets/images/knit-3.jpg"><h3 class="product-title">Knit Three - £19.00<hr></h3>
+        <img class="product-pic" src="assets/images/knit-3.jpg"><h3 class="product-title">Knit Three<hr></h3>
       </div>
     </div>
   </div>
 </section>
 
 
-<!-- About -->
+<!-- Slider -->
 
+<div class="slider-container">
+  <div class="slider-container-items">
+    <h1 class="slider-par-title title"> Handmade<br> from the bottom up!</h1>
+    <p class="slider-container-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.
+      <br>
+      <br>
+      Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui. Commodo consequat duis aute irure.
+      <br>
+      <br>
+      <a>Read More</a>
+      </p>
+  </div>
+  <div class="picture-slider-container">
+      <img class="slider-pic1" src="assets/images/knit-1.jpg">
+      <img class="slider-pic2" src="assets/images/knit-2.jpg">
+      <img class="slider-pic1" src="assets/images/knit-3.jpg">
+      <img class="slider-pic2" src="assets/images/knit-2.jpg">
+      <img class="slider-pic1" src="assets/images/knit-1.jpg">
+  </div>
+</div>
 
 
 <!-- Products -->
 
+
+
+
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </body>
 </html>
