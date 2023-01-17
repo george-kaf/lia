@@ -1,54 +1,101 @@
-<html>
-  <head>
-     <title>Register or login</title>
-	 <h1><a href="../index.html"><img src="../images/logo.png" alt="bikeztube logo" width="150" height="170"/></a></h1>
-
-        </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--CSS -->
+	<link rel="stylesheet" href="/assets/css/styles.css" />
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<script src="https://kit.fontawesome.com/53225a2c11.js" crossorigin="anonymous"></script>	<!-- Favicons -->
+	<title>Lia - Knits - Handmade knit stuff</title>
+</head>
 
 <body>
 
-<form action="http://www.example.com/bookings.php">
+<!-- Navbar -->
+<div class="about-nav">
+	<nav class="about">
+		<a href="/./index.html" >
+		<img
+		src="/assets/images/logo7.png"
+		alt="lia knitting logo"
+		loading="lazy"
+		class="logo">
+	</a>
+		<ul class="navigation">
+		<li><a href="/./index.html" class="nav-link">Home</a></li>
+		<li><a href="about.html" class="nav-link">About</a></li>
+		<li><a href="#shop" class="nav-link">Shop</a></li>
+		<li><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+		<button class="burger-menu" id="burger-menu">
+		<ion-icon class="bars" name="menu-outline"></ion-icon>
+		</button>
+	</nav>
 
-<fieldset required="required">
-	<legend>Your details:</legend>
-	<br />
-	<label name="enter_name">Name:</label>
-	<input type="text" name="text" placeholder="Enter your name here" required="required" />
-	<label name="enter_surname">Surname:</label>
-	<input type="text" name="text" placeholder="Enter your surname here" required="required" />
-	
-</fieldset>
-
-<br />
-<br />
-
-<fieldset>
-<p>How did you hear about us?</p>
-<select name="websites">
-	<option value="google">Google</option>
-	<option value="facebook">Facebook</option>
-	<option value="bikeztube">Bikeztube</option>
-</select>
-
-<br />
+	<div class="about-cover-pic">
+		<img src="../images/about.jpg">
+		<div class="about-cover-pic-title"><h1>About</h1>
+		<i class="fa-solid fa-arrow-down"></i>
+		</div>
+	</div>
+</div>
 
 
-<p>Would you visit us again?</p>
-<br />
-<input type="radio" id="yes" name="use_again" value="yes">
-<label for="yes">Yes</label>
-<input type="radio" id="no" name="use_again" value="no">
-<label for="no">No</label>
-<input type="radio" id="maybe" name="use_again" value="maybe">
-<label for="maybe">Maybe</label>
-<br />
 
-<p>Comments:</p>
-<br />
-<input type="text" length="200" name="comments" id="comments"/>
 
-<br />
-<input type="checkbox" checked="checked" />Sign up for email updates
+<div class="about-details">
+	<div class="about-container">
+		<div class="about-photos">
+			<img class="about-pic-1" src="../images/knit-1.jpg">
+			<img class="about-pic-2" src="../images/about.jpg">
+		</div>
+		<div class="about-text">
+			<h1>Crochet...ting for over 3 decades</h1>
+			<p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas.</p>
+		</div>
+	</div>
+</div>
 
-<input type="submit"/>
-</html>
+<div class="gallery-container">
+	<div class="gallery-pic-container1">
+		<img class="gallery-pic-1" src="../images/knit-1.jpg">
+		<img class="gallery-pic-1" src="../images/knit-2.jpg">
+		<img class="gallery-pic-1" src="../images/knit-3.jpg">
+	</div>
+	<div class="gallery-pic-container2">
+		<img class="gallery-pic-1" src="../images/knit-3.jpg">
+		<img class="gallery-pic-1" src="../images/knit-2.jpg">
+		<img class="gallery-pic-1" src="../images/knit-1.jpg">
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	<!-- Website scripts -->
+	<script src="/assets/js/app.js"></script>
+  
+	<!-- Ion icons scripts -->
+	<script
+	  type="module"
+	  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+	></script>
+	<script
+	  nomodule
+	  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+	></script>
+  </footer>
+</body>
